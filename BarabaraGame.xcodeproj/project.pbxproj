@@ -54,7 +54,7 @@
 		DF64DE252649361F003CB477 = {
 			isa = PBXGroup;
 			children = (
-				DF64DE302649361F003CB477 /* BarabaraGaame */,
+				DF64DE302649361F003CB477 /* BarabaraGame */,
 				DF64DE2F2649361F003CB477 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +67,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF64DE302649361F003CB477 /* BarabaraGaame */ = {
+		DF64DE302649361F003CB477 /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
 				DF64DE312649361F003CB477 /* AppDelegate.swift */,
@@ -85,7 +85,7 @@
 				DF64DE4926493A07003CB477 /* GameViewController.swift */,
 				DF64DE4B26493A15003CB477 /* RankinfViewController.swift */,
 			);
-			path = BarabaraGaame;
+			path = BarabaraGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
