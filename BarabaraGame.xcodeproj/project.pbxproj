@@ -13,10 +13,17 @@
 		DF64DE392649361F003CB477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF64DE372649361F003CB477 /* Main.storyboard */; };
 		DF64DE3B26493622003CB477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF64DE3A26493622003CB477 /* Assets.xcassets */; };
 		DF64DE3E26493622003CB477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF64DE3C26493622003CB477 /* LaunchScreen.storyboard */; };
+		DF64DE4726493836003CB477 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = DF64DE4526493836003CB477 /* tail.png */; };
+		DF64DE4826493836003CB477 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = DF64DE4626493836003CB477 /* bar.png */; };
+		DF64DE4A26493A07003CB477 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF64DE4926493A07003CB477 /* GameViewController.swift */; };
+		DF64DE4C26493A15003CB477 /* RankinfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF64DE4B26493A15003CB477 /* RankinfViewController.swift */; };
+		DFD3908326494B2F00B74B8E /* stewietop.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD3908026494B2F00B74B8E /* stewietop.png */; };
+		DFD3908426494B2F00B74B8E /* stewie middle.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD3908126494B2F00B74B8E /* stewie middle.png */; };
+		DFD3908526494B2F00B74B8E /* stewiebuttom.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD3908226494B2F00B74B8E /* stewiebuttom.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF64DE2E2649361F003CB477 /* BarabaraGaame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarabaraGaame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF64DE2E2649361F003CB477 /* BarabaraGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarabaraGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF64DE312649361F003CB477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF64DE332649361F003CB477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DF64DE352649361F003CB477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		DF64DE3A26493622003CB477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF64DE3D26493622003CB477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF64DE3F26493622003CB477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF64DE4526493836003CB477 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		DF64DE4626493836003CB477 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		DF64DE4926493A07003CB477 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DF64DE4B26493A15003CB477 /* RankinfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankinfViewController.swift; sourceTree = "<group>"; };
+		DFD3908026494B2F00B74B8E /* stewietop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stewietop.png; sourceTree = "<group>"; };
+		DFD3908126494B2F00B74B8E /* stewie middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stewie middle.png"; sourceTree = "<group>"; };
+		DFD3908226494B2F00B74B8E /* stewiebuttom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stewiebuttom.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +62,7 @@
 		DF64DE2F2649361F003CB477 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF64DE2E2649361F003CB477 /* BarabaraGaame.app */,
+				DF64DE2E2649361F003CB477 /* BarabaraGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,8 +75,15 @@
 				DF64DE352649361F003CB477 /* ViewController.swift */,
 				DF64DE372649361F003CB477 /* Main.storyboard */,
 				DF64DE3A26493622003CB477 /* Assets.xcassets */,
+				DF64DE4626493836003CB477 /* bar.png */,
+				DF64DE4526493836003CB477 /* tail.png */,
 				DF64DE3C26493622003CB477 /* LaunchScreen.storyboard */,
+				DFD3908126494B2F00B74B8E /* stewie middle.png */,
+				DFD3908226494B2F00B74B8E /* stewiebuttom.png */,
+				DFD3908026494B2F00B74B8E /* stewietop.png */,
 				DF64DE3F26493622003CB477 /* Info.plist */,
+				DF64DE4926493A07003CB477 /* GameViewController.swift */,
+				DF64DE4B26493A15003CB477 /* RankinfViewController.swift */,
 			);
 			path = BarabaraGaame;
 			sourceTree = "<group>";
@@ -70,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF64DE2D2649361F003CB477 /* BarabaraGaame */ = {
+		DF64DE2D2649361F003CB477 /* BarabaraGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF64DE4226493622003CB477 /* Build configuration list for PBXNativeTarget "BarabaraGaame" */;
+			buildConfigurationList = DF64DE4226493622003CB477 /* Build configuration list for PBXNativeTarget "BarabaraGame" */;
 			buildPhases = (
 				DF64DE2A2649361F003CB477 /* Sources */,
 				DF64DE2B2649361F003CB477 /* Frameworks */,
@@ -82,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = BarabaraGaame;
+			name = BarabaraGame;
 			productName = BarabaraGaame;
-			productReference = DF64DE2E2649361F003CB477 /* BarabaraGaame.app */;
+			productReference = DF64DE2E2649361F003CB477 /* BarabaraGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DF64DE292649361F003CB477 /* Build configuration list for PBXProject "BarabaraGaame" */;
+			buildConfigurationList = DF64DE292649361F003CB477 /* Build configuration list for PBXProject "BarabaraGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF64DE2D2649361F003CB477 /* BarabaraGaame */,
+				DF64DE2D2649361F003CB477 /* BarabaraGame */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +146,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF64DE3E26493622003CB477 /* LaunchScreen.storyboard in Resources */,
+				DF64DE4826493836003CB477 /* bar.png in Resources */,
+				DFD3908426494B2F00B74B8E /* stewie middle.png in Resources */,
+				DF64DE4726493836003CB477 /* tail.png in Resources */,
 				DF64DE3B26493622003CB477 /* Assets.xcassets in Resources */,
+				DFD3908326494B2F00B74B8E /* stewietop.png in Resources */,
 				DF64DE392649361F003CB477 /* Main.storyboard in Resources */,
+				DFD3908526494B2F00B74B8E /* stewiebuttom.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF64DE4A26493A07003CB477 /* GameViewController.swift in Sources */,
 				DF64DE362649361F003CB477 /* ViewController.swift in Sources */,
 				DF64DE322649361F003CB477 /* AppDelegate.swift in Sources */,
+				DF64DE4C26493A15003CB477 /* RankinfViewController.swift in Sources */,
 				DF64DE342649361F003CB477 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +348,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF64DE292649361F003CB477 /* Build configuration list for PBXProject "BarabaraGaame" */ = {
+		DF64DE292649361F003CB477 /* Build configuration list for PBXProject "BarabaraGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF64DE4026493622003CB477 /* Debug */,
@@ -329,7 +357,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF64DE4226493622003CB477 /* Build configuration list for PBXNativeTarget "BarabaraGaame" */ = {
+		DF64DE4226493622003CB477 /* Build configuration list for PBXNativeTarget "BarabaraGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF64DE4326493622003CB477 /* Debug */,
